@@ -10,13 +10,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout (your shield repo)
         uses: actions/checkout@v4
 
-      - name: Build ZMK
-        uses: zmkfirmware/zmk-build@v1
+      - name: Build ZMK (official action)
+        uses: zmkfirmware/zmk-build@main
         with:
-          board: nice_nano_v2          # ← change to your MCU board
+          board: nice_nano_v2          # ← change this if you use another MCU
           shield: spacemousemacropad   # ← your shield name
-          # optional:  add more shields like "shield: spacemousemacropad left"
