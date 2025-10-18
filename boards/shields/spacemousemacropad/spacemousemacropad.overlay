@@ -1,6 +1,6 @@
 /* boards/shields/spacemousemacropad/spacemousemacropad.overlay */
 #include <zmk/matrix_transform.dtsi>
-#include <dt-bindings/zmk/matrix_transform.h>
+
 / {
     chosen {
         zmk,physical-layout = &default_layout;
