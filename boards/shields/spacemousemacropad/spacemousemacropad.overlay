@@ -31,7 +31,6 @@
 
     default_transform: default_transform {
         compatible = "zmk,matrix-transform";
-        display-name = "Spacemouse Macropad";
         columns = <5>;
         rows = <6>;
 
@@ -47,6 +46,7 @@
 
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
+        display-name = "Spacemouse Macropad";
         kscan = <&kscan_0>;
         transform = <&default_transform>;
     };
