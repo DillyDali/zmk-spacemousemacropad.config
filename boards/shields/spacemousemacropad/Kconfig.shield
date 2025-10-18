@@ -1,0 +1,4 @@
+# boards/shields/spacemousemacropad/Kconfig.shield
+
+config SHIELD_SPACEMOUSEMACROPAD
+    def_bool $(shields_list_contains,spacemousemacropad)
