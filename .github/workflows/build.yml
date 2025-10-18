@@ -1,22 +1,6 @@
-name: Build ZMK Firmware
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-  workflow_dispatch:
+name: Build ZMK firmware
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout (your shield repo)
-        uses: actions/checkout@v4
-
-      - name: Build ZMK (official action)
-        uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-        with:
-          board: nice_nano_v2          # ← change this if you use another MCU
-          shield: spacemousemacropad   # ← your shield name
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
