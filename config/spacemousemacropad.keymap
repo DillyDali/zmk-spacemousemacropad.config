@@ -19,7 +19,7 @@
                 // Row 5
                 &mo 1   &kp K   &kp L   &kp M   &kp DOT
                 // Row 6 (Only Col 3 and Col 4 are real keys, 27 total keys)
-                &none   &none   &kp COMMA &kp ENTER &none
+                &kp COMMA &kp ENTER
             >;
         };
 
@@ -32,7 +32,7 @@
                 &trans &trans &trans &trans &trans
                 &trans &trans &trans &trans &trans
                 &trans &trans &trans &trans &trans
-                &none &none &trans &trans &none // Match &none positions
+                &trans &trans
             >;
         };
     };
