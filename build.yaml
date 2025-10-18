@@ -23,7 +23,7 @@
 
 # Replace the example board/shield configurations if they exist.
 # Otherwise, just ensure this 'include' section is present and correct.
-
+---
 include:
   - board: nice_nano_v2
     shield: spacemousemacropad
