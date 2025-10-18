@@ -1,0 +1,39 @@
+/* config/zmk-user.keymap */
+
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                // Row 1
+                &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+                // Row 2
+                &kp Q   &kp W   &kp E   &kp R   &kp T
+                // Row 3
+                &kp A   &kp S   &kp D   &kp F   &kp G
+                // Row 4
+                &kp Z   &kp X   &kp C   &kp V   &kp B
+                // Row 5
+                &mo 1   &kp K   &kp L   &kp M   &kp DOT
+                // Row 6 (Only Col 3 and Col 4 are real keys, 27 total keys)
+                &none   &none   &kp COMMA &kp ENTER &none
+            >;
+        };
+
+        // Layer 1 - Example
+        layer_1 {
+            bindings = <
+                // Must match the 6x5 matrix size
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans
+                &none &none &trans &trans &none // Match &none positions
+            >;
+        };
+    };
+};
