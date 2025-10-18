@@ -19,7 +19,6 @@ kscan_0: kscan_0 {
             ,    &gpio0 PIN(0, 11) (GPIO_ACTIVE_HIGH | <0>) // Row 6 (p0.11)
             ;
 
-        /* 5 Column GPIOs: p1.04, p1.06, p0.09, p0.10, p1.11 */
         col-gpios 
             =    &gpio0 PIN(1, 4) (GPIO_PULL_DOWN | <0>) // Col 1 (p1.04)
             ,    &gpio0 PIN(1, 6) (GPIO_PULL_DOWN | <0>) // Col 2 (p1.06)
