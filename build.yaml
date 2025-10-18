@@ -17,4 +17,14 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
----
+# build.yaml (in the repository root)
+
+# ... (The initial boilerplate comments should remain)
+
+# Replace the example board/shield configurations if they exist.
+# Otherwise, just ensure this 'include' section is present and correct.
+
+include:
+  - board: nice_nano_v2
+    shield: spacemousemacropad
+    artifact-name: spacemousemacropad_firmware
