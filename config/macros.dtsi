@@ -108,12 +108,5 @@
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(QUOTE) &kp SPACE>;
         };
-
-        plus: plus_macro {
-            compatible = "zmk,behavior-macro";
-            label = "PLUS";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp LS(EQUAL)>;
-        };
     };
 };
