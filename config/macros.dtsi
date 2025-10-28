@@ -4,7 +4,6 @@
 
 / {
     behaviors {
-        /* --- Macro examples --- */
         minimize_tree: minimize_tree_macro {
             compatible = "zmk,behavior-macro";
             label = "MINIMIZE_TREE";
@@ -107,128 +106,14 @@
             compatible = "zmk,behavior-macro";
             label = "QUOTE";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
+            bindings = <&macro_tap &kp LS(QUOTE) &kp SPACE>;
         };
 
-        name3: name3_macro {
+        plus: plus_macro {
             compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
+            label = "PLUS";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
+            bindings = <&macro_tap &kp LS(EQUAL)>;
         };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-        name3: name3_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NAME3_MACRO";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
-        };
-
-
     };
 };
