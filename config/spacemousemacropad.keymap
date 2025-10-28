@@ -1,6 +1,7 @@
 /* config/zmk-user.keymap */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "macros.dtsi"
 
 / {
     keymap {
@@ -9,7 +10,7 @@
         default_layer {
             bindings = <
                 // Row 1
-                &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+                &name1  &name2  &name3  &kp N4  &lt 1 K_MOD
                 // Row 2
                 &kp Q   &kp W   &kp E   &kp R   &kp T
                 // Row 3
@@ -23,7 +24,7 @@
             >;
         };
 
-        // Layer 1 - Example
+       /* MOD layer (activated by K_MOD tap/hold) */
         layer_1 {
             bindings = <
                 // Must match the 6x5 matrix size
