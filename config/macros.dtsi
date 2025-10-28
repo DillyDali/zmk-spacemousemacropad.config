@@ -1,0 +1,29 @@
+/* config/macros.dtsi */
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    behaviors {
+        /* --- Macro examples --- */
+        name1: name1_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NAME1_MACRO";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp Q &macro_release>;
+        };
+
+        name2: name2_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NAME2_MACRO";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp W &macro_release>;
+        };
+
+        name3: name3_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NAME3_MACRO";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
+        };
+    };
+};
