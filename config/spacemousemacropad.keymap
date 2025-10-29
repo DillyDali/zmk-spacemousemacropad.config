@@ -16,11 +16,11 @@
                 // Row 3
                 &kp LC(Z)   &kp N6   &kp N5   &kp N4   &kp ESC
                 // Row 4
-                &kp F   &kp N3   &kp N2   &kp N1   &shortcutbar
+                &bootloader   &kp N3   &kp N2   &kp N1   &shortcutbar
                 // Row 5
                 &minimize_tree   &kp STAR   &kp N0   &kp PLUS   &construction
                 // Row 6 
-                &kp COMMA &ht &hide_hovered_component &show_hidden_components
+                &kp COMMA &mt show_hidden_components hide_hovered_component
             >;
         };
 
