@@ -15,11 +15,11 @@
                 // Row 3 (5 keys)
                 &kp A  &kp S  &kp D  &kp F  &kp G
                 // Row 4 (5 keys)
-                &kp H  &kp J  &kp K  &kp L  &kp Z
+                &kp H  &kp J  &kp 0  &kp L  &kp Z
                 // Row 5 (5 keys)
                 &kp X  &kp C  &kp V  &kp B  &kp N
                 // Row 6 (2 keys)
-                &kp M  &kp 0
+                &kp M  &kp V
             >;
         };
     };
