@@ -1,6 +1,7 @@
 /* config/zmk-user.keymap */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "macros.dtsi"
 
 / {
     keymap {
@@ -8,18 +9,30 @@
 
         default_layer {
             bindings = <
-                // Row 1 (5 keys)
-                &kp APOS  &kp W  &kp E  &kp R  &kp T
-                // Row 2 (5 keys)
-                &kp Y  &kp U  &kp EQUAL  &kp PLUS  &kp K_UNDO
-                // Row 3 (5 keys)
-                &kp A  &kp DQT  &kp STAR  &kp F  &kp K_REDO
-                // Row 4 (5 keys)
-                &kp H  &kp NUMBER_1  &kp N0  &kp L  &kp C_AC_REDO
-                // Row 5 (5 keys)
-                &kp X  &kp C  &kp V  &kp B  &kp N
-                // Row 6 (2 keys)
-                &kp KP_MINUS  &kp KP_MULTIPLY
+                // Row 1
+                &kp ENTER  &fit  &snapnormalto  &equations  &save
+                // Row 2
+                &mo1   &kp N9   &kp N8   &kp N7   &kp DEL
+                // Row 3
+                &kp LC(Z)   &kp N6   &kp N5   &kp N4   &kp ESC
+                // Row 4
+                &kp F   &kp N3   &kp N2   &kp N1   &shortcutbar
+                // Row 5
+                &minimize_tree   &kp STAR   &kp N0   &kp PLUS   &construction
+                // Row 6 
+                &kp COMMA &ht &hide_hovered_component &show_hidden_components
+            >;
+        };
+
+       /* MOD layer (activated by K_MOD tap/hold) */
+        layer_1 {
+            bindings = <
+                &trans &alttab &switchtabs &trans &trans
+                &trans &trans &trans &trans &trans
+                &kp LC(Y) &kp RIGHT &kp DOWN &kp LEFT &trans
+                &trans &kp BACKSPACE &kp UP &quote &trans
+                &trans &kp SLASH &kp EQUAL &kp MINUS &measure
+                &trans &isolate
             >;
         };
     };
