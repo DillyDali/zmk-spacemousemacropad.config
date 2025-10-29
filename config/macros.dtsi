@@ -29,35 +29,35 @@
             compatible = "zmk,behavior-macro";
             label = "ISOLATE";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp I &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_1 &macro_release>;
         };
 
         construction: construction_macro {
             compatible = "zmk,behavior-macro";
             label = "CONSTRUCTION";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp C &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_2 &macro_release>;
         };
 
         measure: measure_macro {
             compatible = "zmk,behavior-macro";
             label = "MEASURE";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp M &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_3 &macro_release>;
         };
 
         shortcutbar: shortcutbar_macro {
             compatible = "zmk,behavior-macro";
             label = "SHORTCUTBAR";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp S &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_4 &macro_release>;
         };
 
         escape: escape_macro {
             compatible = "zmk,behavior-macro";
             label = "ESCAPE";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp E &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_5 &macro_release>;
         };
 
         save: save_macro {
@@ -71,14 +71,14 @@
             compatible = "zmk,behavior-macro";
             label = "EQUATIONS";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp Q &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_6 &macro_release>;
         };
 
         snapnormalto: snapnormalto_macro {
             compatible = "zmk,behavior-macro";
             label = "SNAPNORMALTO";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp N &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_7 &macro_release>;
         };
 
         switchtabs: switchtabs_macro {
@@ -92,7 +92,7 @@
             compatible = "zmk,behavior-macro";
             label = "FIT";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT &kp F &macro_release>;
+            bindings = <&macro_press &kp KP_NUMBER_8 &macro_release>;
         };
 
         alttab: alttab_macro {
