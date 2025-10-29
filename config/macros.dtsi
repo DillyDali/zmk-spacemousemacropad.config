@@ -106,7 +106,7 @@
             compatible = "zmk,behavior-macro";
             label = "QUOTE";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp LS(QUOTE) &kp SPACE>;
+            bindings = <&macro_tap &kp DQT &kp SPACE>;
         };
     };
 };
