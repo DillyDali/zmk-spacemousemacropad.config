@@ -19,7 +19,7 @@
                 // Row 5 (5 keys)
                 &kp X  &kp C  &kp V  &kp B  &kp N
                 // Row 6 (2 keys)
-                &KP_MINUS  &kp KP_MULTIPLY
+                &kp KP_MINUS  &kp KP_MULTIPLY
             >;
         };
     };
