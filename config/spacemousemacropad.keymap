@@ -9,17 +9,17 @@
         default_layer {
             bindings = <
                 // Row 1 (5 keys)
-                &kp Q  &kp W  &kp E  &kp R  &kp T
+                &kp APOS  &kp W  &kp E  &kp R  &kp T
                 // Row 2 (5 keys)
-                &kp Y  &kp U  &kp I  &kp O  &kp P
+                &kp Y  &kp U  &kp EQUAL  &kp PLUS  &kp K_UNDO
                 // Row 3 (5 keys)
-                &kp A  &kp S  &kp D  &kp F  &kp G
+                &kp A  &kp DQT  &kp STAR  &kp F  &kp K_REDO
                 // Row 4 (5 keys)
-                &kp H  &kp J  &kp 0  &kp L  &kp Z
+                &kp H  &kp NUMBER_1  &kp N0  &kp L  &kp C_AC_REDO
                 // Row 5 (5 keys)
                 &kp X  &kp C  &kp V  &kp B  &kp N
                 // Row 6 (2 keys)
-                &kp M  &kp V
+                &KP_MINUS  &kp KP_MULTIPLY
             >;
         };
     };
