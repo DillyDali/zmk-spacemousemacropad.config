@@ -12,7 +12,7 @@
                 // Row 1
                 &kp ENTER  &fit  &snapnormalto  &equations  &save
                 // Row 2
-                &mo1   &kp N9   &kp N8   &kp N7   &kp DEL
+                &mo 1   &kp N9   &kp N8   &kp N7   &kp DEL
                 // Row 3
                 &kp LC(Z)   &kp N6   &kp N5   &kp N4   &kp ESC
                 // Row 4
