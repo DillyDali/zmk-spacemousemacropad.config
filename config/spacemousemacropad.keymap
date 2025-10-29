@@ -1,7 +1,6 @@
 /* config/zmk-user.keymap */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include "macros.dtsi"
 
 / {
     keymap {
@@ -9,30 +8,18 @@
 
         default_layer {
             bindings = <
-                // Row 1
-                &kp ENTER  &fit  &snapnormalto  &equations  &save
-                // Row 2
-                &mo1   &kp 9   &kp 8   &kp 7   &kp DEL
-                // Row 3
-                &kp F   &kp 6   &kp 5   &kp 4   &kp ESC
-                // Row 4
-                &kp F   &kp 3   &kp 2   &kp 1   &shortcutbar
-                // Row 5
-                &minimize_tree   &kp LS(N8)   &kp 0   &kp LS(EQUAL)   &construction
-                // Row 6 
-                &kp COMMA &ht &hide_hovered_component &show_hidden_components
-            >;
-        };
-
-       /* MOD layer (activated by K_MOD tap/hold) */
-        layer_1 {
-            bindings = <
-                &trans &alttab &switchtabs &trans &trans
-                &trans &trans &trans &trans &trans
-                &trans &kp RIGHT &kp DOWN &kp LEFT &trans
-                &trans &kp BACKSPACE &kp UP &quote &trans
-                &trans &kp SLASH &kp EQUAL &kp MINUS &measure
-                &trans &isolate
+                // Row 1 (5 keys)
+                &kp Q  &kp W  &kp E  &kp R  &kp T
+                // Row 2 (5 keys)
+                &kp Y  &kp U  &kp I  &kp O  &kp P
+                // Row 3 (5 keys)
+                &kp A  &kp S  &kp D  &kp F  &kp G
+                // Row 4 (5 keys)
+                &kp H  &kp J  &kp K  &kp L  &kp Z
+                // Row 5 (5 keys)
+                &kp X  &kp C  &kp V  &kp B  &kp N
+                // Row 6 (2 keys)
+                &kp M  &kp 0
             >;
         };
     };
