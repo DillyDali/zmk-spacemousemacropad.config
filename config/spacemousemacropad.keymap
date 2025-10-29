@@ -20,7 +20,7 @@
                 // Row 5
                 &minimize_tree   &kp STAR   &kp N0   &kp PLUS   &construction
                 // Row 6 
-                &kp COMMA &mt show_hidden_components hide_hovered_component
+                &kp COMMA &hideunhide 0 1
             >;
         };
 
