@@ -10,16 +10,16 @@
         default_layer {
             bindings = <
                 // Row 1
-                &name1  &name2  &name3  &kp N4  &lt 1 K_MOD
+                &kp ENTER  &fit  &snapnormalto  &equations  &save
                 // Row 2
-                &kp Q   &kp W   &kp E   &kp R   &kp T
+                &mo1   &kp 9   &kp 8   &kp 7   &kp DEL
                 // Row 3
-                &kp A   &kp S   &kp D   &kp F   &kp G
+                &kp F   &kp 6   &kp 5   &kp 4   &kp ESC
                 // Row 4
-                &kp Z   &kp X   &kp C   &kp V   &kp B
+                &kp F   &kp 3   &kp 2   &kp 1   &shortcutbar
                 // Row 5
-                &minimize_tree   &kp LS(N8)   &kp 0   &kp LS(EQUAL)   &kp DOT
-                // Row 6 (Only Col 3 and Col 4 are real keys, 27 total keys)
+                &minimize_tree   &kp LS(N8)   &kp 0   &kp LS(EQUAL)   &construction
+                // Row 6 
                 &kp COMMA &ht &hide_hovered_component &show_hidden_components
             >;
         };
@@ -27,12 +27,11 @@
        /* MOD layer (activated by K_MOD tap/hold) */
         layer_1 {
             bindings = <
-                // Must match the 6x5 matrix size
+                &trans &alttab &switchtabs &trans &trans
                 &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans
-                &trans &kp SLASH &kp EQUAL &kp MINUS &trans
+                &trans &kp RIGHT &kp DOWN &kp LEFT &trans
+                &trans &kp BACKSPACE &kp UP &quote &trans
+                &trans &kp SLASH &kp EQUAL &kp MINUS &measure
                 &trans &isolate
             >;
         };
