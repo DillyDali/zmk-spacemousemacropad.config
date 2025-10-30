@@ -109,6 +109,13 @@
             bindings = <&macro_tap &kp DQT &kp SPACE>;
         };
 
+        test: test_macro {
+            compatible = "zmk,behavior-macro";
+            label = "TEST";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp B &macro_release>;
+        };
+
        hideunhide: hideunhide_macro {
             compatible = "zmk,behavior-hold-tap";
             label = "HIDEUNHIDE";
