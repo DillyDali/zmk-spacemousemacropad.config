@@ -10,9 +10,9 @@
         default_layer {
             bindings = <
                 // Row 1
-                &hideunhide 0 1 &kp COMMA
+                &hideunhide 0 1 &kp test
                 // Row 2
-                &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
+                &kp construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
                 &shortcutbar &kp N1 &kp N2 &kp N3 &bootloader
                 // Row 4
