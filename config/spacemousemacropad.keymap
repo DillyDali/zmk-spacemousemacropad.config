@@ -10,29 +10,35 @@
         default_layer {
             bindings = <
                 // Row 1
-                &kp ENTER  &fit  &snapnormalto  &equations  &save
+                &hideunhide 0 1 &kp COMMA
                 // Row 2
-                &mo 1   &kp N9   &kp N8   &kp N7   &kp DEL
+                &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
-                &kp LC(Z)   &kp N6   &kp N5   &kp N4   &kp ESC
+                &shortcutbar &kp N1 &kp N2 &kp N3 &bootloader
                 // Row 4
-                &bootloader   &kp N3   &kp N2   &kp N1   &shortcutbar
+                &kp ESC &kp N4 &kp N5 &kp N6 &kp LC(Z)
                 // Row 5
-                &minimize_tree   &kp STAR   &kp N0   &kp PLUS   &construction
+                &kp DEL &kp N7 &kp N8 &kp N9 &mo 1
                 // Row 6 
-                &kp COMMA &hideunhide 0 1
+                &save    &equations    &snapnormalto    &fit    &kp ENTER
             >;
         };
 
        /* MOD layer (activated by K_MOD tap/hold) */
         layer_1 {
             bindings = <
-                &trans &alttab &switchtabs &trans &trans
+                // Row 1
+                &isolate &trans
+                // Row 2
+                &measure &kp MINUS &kp EQUAL &kp SLASH &trans
+                // Row 3
+                &trans &quote &kp UP &kp BACKSPACE &trans
+                // Row 4
+                &trans &kp LEFT &kp DOWN &kp RIGHT &kp LC(Y)
+                // Row 5
                 &trans &trans &trans &trans &trans
-                &kp LC(Y) &kp RIGHT &kp DOWN &kp LEFT &trans
-                &trans &kp BACKSPACE &kp UP &quote &trans
-                &trans &kp SLASH &kp EQUAL &kp MINUS &measure
-                &trans &isolate
+                // Row 6
+                &trans &trans &switchtabs &alttab &trans
             >;
         };
     };
