@@ -10,7 +10,7 @@
         default_layer {
             bindings = <
                 // Row 1
-                &hideunhide 0 1 &kp test
+                &hideunhide 0 1 &test
                 // Row 2
                 &kp construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
