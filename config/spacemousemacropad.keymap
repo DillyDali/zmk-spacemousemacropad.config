@@ -12,7 +12,7 @@
                 // Row 1
                 &hideunhide 0 1 &test
                 // Row 2
-                &kp construction &kp PLUS &kp N0 &kp STAR &minimize_tree
+                &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
                 &shortcutbar &kp N1 &kp N2 &kp N3 &bootloader
                 // Row 4
