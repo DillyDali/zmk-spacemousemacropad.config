@@ -197,6 +197,34 @@
                 , <&macro_release &kp LCTRL>;
         };
 
+        testA: testa_macro {
+            compatible = "zmk,behavior-macro";
+            label = "TESTA";
+            #binding-cells = <0>;
+            bindings 
+                = <&macro_tap &kp A>;
+        };
+
+        testb: testb_macro {
+            compatible = "zmk,behavior-macro";
+            label = "TESTB";
+            #binding-cells = <0>;
+            bindings 
+                = <&macro_tap &kp B>;
+        };
+
+       holdtaptest: holdtaptest_macro {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDTAPTEST";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <125>;
+            global-quick-tap;
+            bindings
+                = <&testa>
+                , <&testb>;
+        };
+
        hideunhide: hideunhide_macro {
             compatible = "zmk,behavior-hold-tap";
             label = "HIDEUNHIDE";
