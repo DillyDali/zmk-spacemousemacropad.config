@@ -16,7 +16,7 @@
                 // Row 3
                 &shortcutbar &kp N1 &kp N2 &kp N3 &bootloader
                 // Row 4
-                &kp ESC &kp N4 &kp N5 &kp N6 &kp LC(Z)
+                &escape &kp N4 &kp N5 &kp N6 &kp LC(Z)
                 // Row 5
                 &kp DEL &kp N7 &kp N8 &kp N9 &mo 1
                 // Row 6 
