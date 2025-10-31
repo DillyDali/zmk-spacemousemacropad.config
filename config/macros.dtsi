@@ -221,7 +221,7 @@
             quick-tap-ms = <125>;
             global-quick-tap;
             bindings
-                = <&testa>
+                = <&kp>
                 , <&testb>;
         };
 
