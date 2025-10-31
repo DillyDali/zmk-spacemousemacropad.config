@@ -41,7 +41,13 @@
             label = "ISOLATE";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_1>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         construction: construction_macro {
@@ -49,7 +55,13 @@
             label = "CONSTRUCTION";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_2>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp C>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         measure: measure_macro {
@@ -57,7 +69,13 @@
             label = "MEASURE";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_3>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp M>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         shortcutbar: shortcutbar_macro {
@@ -65,7 +83,13 @@
             label = "SHORTCUTBAR";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_4>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp S>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         escape: escape_macro {
@@ -73,7 +97,13 @@
             label = "ESCAPE";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_5>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp E>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         save: save_macro {
@@ -91,7 +121,13 @@
             label = "EQUATIONS";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_6>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp Q>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         snapnormalto: snapnormalto_macro {
@@ -99,7 +135,13 @@
             label = "SNAPNORMALTO";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_7>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp S>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         switchtabs: switchtabs_macro {
@@ -117,7 +159,13 @@
             label = "FIT";
             #binding-cells = <0>;
             bindings 
-                = <&macro_tap &kp KP_NUMBER_8>;
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp F>
+                , <&macro_release &kp LSHIFT>
+                , <&macro_release &kp LALT>
+                , <&macro_release &kp LCTRL>;
         };
 
         alttab: alttab_macro {
