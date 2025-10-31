@@ -217,6 +217,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDTAPTEST";
             #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
             bindings = <&testa>, <&testb>;
         };
 
