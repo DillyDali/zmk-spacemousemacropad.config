@@ -216,10 +216,8 @@
         holdtaptest: holdtaptest_behavior {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDTAPTEST";
-            #binding-cells = <0>;
+            #binding-cells = <2>;
             tapping-term-ms = <300>;
-            quick-tap-ms = <125>;
-            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&testa>, <&testb>;
         };
