@@ -10,7 +10,7 @@
         default_layer {
             bindings = <
                 // Row 1
-                &holdtaptest &kp C
+                &holdtaptest &testa
                 // Row 2
                 &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
