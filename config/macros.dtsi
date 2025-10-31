@@ -86,7 +86,7 @@
                 = <&macro_press &kp LCTRL>
                 , <&macro_press &kp LALT>
                 , <&macro_press &kp LSHIFT>
-                , <&macro_tap &kp S>
+                , <&macro_tap &kp B>
                 , <&macro_release &kp LSHIFT>
                 , <&macro_release &kp LALT>
                 , <&macro_release &kp LCTRL>;
