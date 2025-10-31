@@ -200,7 +200,7 @@
         testa: testa_macro {
             compatible = "zmk,behavior-macro";
             label = "TESTA";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings 
                 = <&macro_tap &kp A>;
         };
@@ -208,7 +208,7 @@
         testb: testb_macro {
             compatible = "zmk,behavior-macro";
             label = "TESTB";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings 
                 = <&macro_tap &kp B>;
         };
