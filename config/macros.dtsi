@@ -222,5 +222,14 @@
             bindings = <&testa>, <&testb>;
         };
 
+        hideunhide: hideunhide_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HIDEUNHIDE";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+            bindings = <&show_hidden_components>, <&hide_hovered_component>;
+        };
+
     };
 };
