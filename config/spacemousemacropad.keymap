@@ -14,9 +14,9 @@
                 // Row 2
                 &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
-                &shortcutbar &kp N1 &kp N2 &kp N3 &kp LCTRL
+                &shortcutbar &kp N1 &kp N2 &kp N3 &kp LC(Z)
                 // Row 4
-                &escape &kp N4 &kp N5 &kp N6 &kp LC(Z)
+                &escape &kp N4 &kp N5 &kp N6 &kp LCTRL
                 // Row 5
                 &kp DEL &kp N7 &kp N8 &kp N9 &mo 1
                 // Row 6 
@@ -32,9 +32,9 @@
                 // Row 2
                 &measure &kp MINUS &kp EQUAL &kp SLASH &trans
                 // Row 3
-                &trans &quote &kp UP &kp BACKSPACE &trans
+                &trans &quote &kp UP &kp BACKSPACE &kp LC(Y)
                 // Row 4
-                &trans &kp LEFT &kp DOWN &kp RIGHT &kp LC(Y)
+                &trans &kp LEFT &kp DOWN &kp RIGHT &trans
                 // Row 5
                 &trans &trans &trans &trans &trans
                 // Row 6
