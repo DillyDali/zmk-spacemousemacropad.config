@@ -10,7 +10,7 @@
         default_layer {
             bindings = <
                 // Row 1
-                &hideunhide 0 0 &test
+                &hideunhide 0 0 &ok
                 // Row 2
                 &construction &kp PLUS &kp N0 &kp STAR &minimize_tree
                 // Row 3
@@ -28,7 +28,7 @@
         layer_1 {
             bindings = <
                 // Row 1
-                &isolate &trans
+                &isolate &cancel
                 // Row 2
                 &measure &kp MINUS &kp EQUAL &kp SLASH &trans
                 // Row 3
