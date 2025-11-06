@@ -34,7 +34,7 @@
                 // Row 3
                 &trans &quote &kp UP &kp BACKSPACE &kp LC(Y)
                 // Row 4
-                &trans &kp LEFT &kp DOWN &kp RIGHT &kp LCTRL
+                &kp ESC &kp LEFT &kp DOWN &kp RIGHT &kp LCTRL
                 // Row 5
                 &trans &trans &trans &trans &trans
                 // Row 6
